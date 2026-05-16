@@ -1,0 +1,111 @@
+{
+  "astronomy": {
+    "discipline": "astronomy",
+    "minSources": 2,
+    "preferredProviderOrder": ["official", "openalex", "crossref"],
+    "preferredDomains": [
+      "nasa.gov",
+      "science.nasa.gov",
+      "data.nasa.gov",
+      "api.nasa.gov",
+      "esa.int",
+      "cosmos.esa.int",
+      "iau.org",
+      "ssd.jpl.nasa.gov",
+      "adsabs.harvard.edu"
+    ],
+    "strongSourceTypes": ["official_agency", "peer_reviewed_article", "curated_reference"],
+    "allowOfficialSingleSource": true,
+    "allowCuratedSingleSource": true,
+    "quotePolicy": "short_excerpt_or_public_domain_only"
+  },
+  "philosophy": {
+    "discipline": "philosophy",
+    "minSources": 1,
+    "preferredProviderOrder": ["curated", "reference", "openalex"],
+    "preferredDomains": [
+      "plato.stanford.edu",
+      "iep.utm.edu",
+      "gutenberg.org",
+      "wikisource.org",
+      "uk.wikisource.org",
+      "perseus.tufts.edu",
+      "archive.org"
+    ],
+    "strongSourceTypes": ["curated_reference", "primary_text_public_domain", "peer_reviewed_article"],
+    "allowOfficialSingleSource": false,
+    "allowCuratedSingleSource": true,
+    "quotePolicy": "public_domain_or_short_attributed_excerpt_only"
+  },
+  "history": {
+    "discipline": "history",
+    "minSources": 2,
+    "preferredProviderOrder": ["curated", "openalex", "crossref", "reference"],
+    "preferredDomains": [
+      "litopys.org.ua",
+      "history.org.ua",
+      "encyclopediaofukraine.com",
+      "jstor.org",
+      "cambridge.org",
+      "oxfordreference.com",
+      "openalex.org"
+    ],
+    "strongSourceTypes": ["curated_monograph", "peer_reviewed_article", "academic_reference", "primary_text_public_domain"],
+    "allowOfficialSingleSource": false,
+    "allowCuratedSingleSource": true,
+    "quotePolicy": "public_domain_or_short_attributed_excerpt_only"
+  },
+  "biomedicine": {
+    "discipline": "biomedicine",
+    "minSources": 2,
+    "preferredProviderOrder": ["pubmed", "official", "openalex", "crossref"],
+    "preferredDomains": [
+      "pubmed.ncbi.nlm.nih.gov",
+      "pmc.ncbi.nlm.nih.gov",
+      "who.int",
+      "nih.gov",
+      "cdc.gov",
+      "cochranelibrary.com"
+    ],
+    "strongSourceTypes": ["systematic_review", "clinical_guideline", "peer_reviewed_article", "official_health_agency"],
+    "allowOfficialSingleSource": false,
+    "allowCuratedSingleSource": false,
+    "preprintsAllowed": false,
+    "requiresReview": true,
+    "quotePolicy": "short_excerpt_only"
+  },
+  "science": {
+    "discipline": "science",
+    "minSources": 2,
+    "preferredProviderOrder": ["openalex", "crossref", "arxiv"],
+    "preferredDomains": [
+      "nature.com",
+      "science.org",
+      "springer.com",
+      "sciencedirect.com",
+      "arxiv.org",
+      "openalex.org"
+    ],
+    "strongSourceTypes": ["peer_reviewed_article", "official_agency", "academic_reference"],
+    "allowOfficialSingleSource": true,
+    "allowCuratedSingleSource": true,
+    "quotePolicy": "short_excerpt_or_public_domain_only"
+  },
+  "general": {
+    "discipline": "general",
+    "minSources": 2,
+    "preferredProviderOrder": ["curated", "openalex", "crossref"],
+    "preferredDomains": [
+      "openalex.org",
+      "britannica.com",
+      "encyclopedia.com",
+      "wikisource.org",
+      "gutenberg.org"
+    ],
+    "strongSourceTypes": ["curated_reference", "peer_reviewed_article", "academic_reference", "official_source"],
+    "allowOfficialSingleSource": true,
+    "allowCuratedSingleSource": true,
+    "quotePolicy": "short_excerpt_or_public_domain_only"
+  }
+}
+
